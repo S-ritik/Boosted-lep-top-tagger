@@ -1,0 +1,8 @@
+int nrmuon = 0;
+for(int mu=0; mu<nmuons; mu++)
+  {
+    if(muonpt[mu]<30.) continue;  
+    if(fabs(muoneta[mu])>2.5)  continue;
+    nrmuon++;
+  }
+if (nrmuon>0) return kFalse;

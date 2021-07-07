@@ -1,0 +1,216 @@
+extra variables in proof.c (need to be removed)
+
+nvert
+ndofct
+nchict
+ihlt01
+ihlt02
+ihlt03
+ihlt04
+ihlt05
+ihlt06
+ihlt07
+ihlt08
+ihlt09
+ihlt10
+ihlt11
+ihlt12
+ihlt13
+ihlt14
+ihlt15
+ihlt16
+ihlt17
+prescl01
+prescl02
+prescl03
+prescl04
+prescl05
+prescl06
+prescl07
+prescl08
+prescl09
+prescl10
+trigobje
+pfjetAK8looseID
+pfjetAK8tightID
+pfjetAK8tightLVID
+pfjetAK8JECL1
+pfjetAK8JECL2
+pfjetAK8JECL3
+pfjetAK8JECL2L3
+pfjetAK8muinsube  -- has a histogram
+pfjetAK8btag_CMVA  --has a sel* histogram
+pfjetAK8btag_CSV   --has a sel* histogram
+pfjetAK8btag_DeepFlav
+pfjetAK8DeepTag_BBvsQCD
+pfjetAK8DeepTag_CCvsQCD
+pfjetAK8HFEMF
+pfjetAK8HOF  -- has a sel* histogram
+pfjetAK8CEMM  -- has a sel* varaiable
+pfjetAK8NEMM  -- has a sel* varaiable
+pfjetAK8HFEMM
+pfjetAK8axis2
+pfjetAK8elsubjptrat  -- has a sel* varaiable,
+pfjetAK8_leppt    -- has a sel* histogram
+pfjetAK8_lepeta
+pfjetAK8_lepphi
+pfjetAK8_lepe
+pfjetAK8_bpt     -- has a sel* histogram
+pfjetAK8_beta
+pfjetAK8_bphi
+pfjetAK8_be
+pfjetAK8_nupt   -- has a sel* histogram
+pfjetAK8_nueta
+pfjetAK8_nuphi
+pfjetAK8_nue
+pfjetAK8_bbyW_E  -- has a sel* histogram, in* variable
+pfjetAK8_Kfactor -- has a sel* histogram, in* variable
+pfjetAK8_Rnew  ---- has a sel* histogram
+pfjetAK8elinsube
+pfjetAK8elinsubje
+pfjetAK4looseID
+pfjetAK4tightID
+pfjetAK4tightLVID
+pfjetAK4JECL1
+pfjetAK4JECL2
+pfjetAK4JECL3
+pfjetAK4JECL2L3
+pfjetAK4btag_CMVA
+pfjetAK4btag_CSV
+pfjetAK4btag_DeepQCD
+GENMETSig
+genjetAK8y
+genjetAK8btag
+genjetAK8tau1
+genjetAK8tau2
+genjetAK8tau3
+genjetAK8chrad
+genjetAK8sub1pt
+genjetAK8sub1y
+genjetAK8sub1phi
+genjetAK8sub1mass
+genjetAK8sub1hadfrac
+genjetAK8sub1emfrac
+genjetAK8sub2pt
+genjetAK8sub2y
+genjetAK8sub2phi
+genjetAK8sub2mass
+genjetAK8sub2hadfrac
+genjetAK8sub2emfrac
+genjetAK4y
+genjetAK4btag
+genpartq
+muone
+muondrbm
+muonemiso
+muonhadiso
+muontkpt03
+muontkpt05
+muonthit  --check
+eldxy
+eldz
+eltkpt03
+eltkpt04
+elemiso04
+elhadiso04
+elsceta
+elhadisodepth03
+elchhadiso
+elneuhadiso
+elphoiso
+elpuchhadiso
+elconvdist
+elconvdoct
+nphotons
+phoe
+phoeta
+phophi
+phomvaid
+phoe1by9
+phoe9by25
+photrkiso
+phoemiso
+phohadiso
+phochhadiso
+phoneuhadiso
+phophoiso
+phoPUiso
+phohadbyem
+phoietaieta
+
+
+extra variables in .c (need to be added)
+
+bool hlt_IsoMu24
+bool hlt_Mu50
+bool hlt_Ele50_PFJet165
+bool hlt_Ele115
+bool hlt_AK8PFJet500
+bool hlt_Photon200
+bool hlt_Mu37Ele27
+bool hlt_Mu27Ele37
+bool hlt_Mu37TkMu27
+bool hlt_OldMu100
+bool hlt_TkMu100
+bool hlt_DoubleEle25
+float trigobjmass[njetmx]
+int trigobjpdgId[njetmx]
+float pfjetAK8eta[njetmxAK8]
+bool pfjetAK8jetID_tightlepveto[njetmxAK8]
+bool pfjetAK8jetID[njetmxAK8];
+float pfjetAK8muinpt[njetmxAK8]
+float pfjetAK8muineta[njetmxAK8]
+float pfjetAK8muinphi[njetmxAK8]
+float pfjetAK8muinmass[njetmxAK8]
+float pfjetAK8elinpt[njetmxAK8]
+float pfjetAK8elineta[njetmxAK8]
+float pfjetAK8elinphi[njetmxAK8]
+float pfjetAK8elinmass[njetmxAK8]
+float pfjetAK8muinsubjpt[njetmxAK8]
+float pfjetAK8muinsubjeta[njetmxAK8]
+float pfjetAK8muinsubjphi[njetmxAK8]
+float pfjetAK8muinsubjmass[njetmxAK8]
+float pfjetAK8elinsubIfar[njetmxAK8]
+float pfjetAK8elinsubI0[njetmxAK8]
+float pfjetAK8elinsubInear[njetmxAK8]
+float pfjetAK8subhaddiff[njetmxAK8]
+float pfjetAK8subemdiff[njetmxAK8]
+float pfjetAK8subptdiff[njetmxAK8]
+bool pfjetAK4jetID[njetmx]
+bool pfjetAK4jetID_tightlepveto[njetmx]
+float genjetAK8eta[njetmxAK8]
+float genjetAK4eta[njetmx]
+int genpartgrmompdg[npartmx]
+bool genpartisPromptFinalState[npartmx]
+bool genpartisLastCopyBeforeFSR[npartmx]
+float muonchiso[njetmx]
+float muonnhiso[njetmx]
+float muonphiso[njetmx]
+float muonminisoall[njetmx]
+float mudxy_sv[njetmx]
+float muonhit[njetmx]
+bool elmvaid_Fallv2WP80[njetmx]
+bool elmvaid_Fallv2WP80_noIso[njetmx]
+float eldxytrk[njetmx]
+float eldztrk[njetmx]
+
+
+from proof.cc code
+
+histograms to remove
+
+hist_npv_nopuwt
+hist_npv
+selpfjetAK8_bbyW_E         stored in hist_obs and other hist_obs*
+selpfjetAK8_Kfactor      stored in hist_obs and other hist_obs*
+pfjetAK8rnu_tvsb
+
+
+// Things written below are for my understanding while editing the .h and .c code
+Notes----
+eldxy is replaced by eldxytrk
+eldz is replaced by eldztrk
+genjetAK8y is replaced by genjetAK8eta
+genjetAK4y is replaced by genjetAK4eta
+trigobje is replaced by trigobjmass
+misetsig is replaced by PFMETSig
